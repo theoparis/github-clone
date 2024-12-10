@@ -1,14 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./src/**/*.{html,js,svelte,ts}'],
+  content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
     extend: {
       colors: {
-        'github-dark': '#0d1117',
-        'github-btn': '#238636',
-        'github-border': '#30363d'
-      }
-    }
+        "github-dark": "#0d1117",
+        "github-dark-secondary": "#151B23",
+        "github-btn": "#238636",
+        "github-border": "#30363d",
+      },
+    },
   },
-  plugins: []
-}
+  plugins: [],
+};
